@@ -45,3 +45,7 @@ List files staged to go into the next commit
 git diff --staged
 NB: press q to return to the command line
 
+Remove file (On the next commit, the file will be gone and no longer tracked)
+git rm <FileName>
+git rm -f <FileName>
+git -rm --cached <FileName>
