@@ -25,6 +25,9 @@ git add .
 Commit a file
 git commit -m <Message>
 
+Commit a file (automatically stage file)
+git commit -a -m <Message>
+
 Connect a local repository with a remote repository
 git remote add origin <RemoteURL>
 
