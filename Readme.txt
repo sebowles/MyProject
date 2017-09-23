@@ -49,3 +49,6 @@ Remove file (On the next commit, the file will be gone and no longer tracked)
 git rm <FileName>
 git rm -f <FileName>
 git -rm --cached <FileName>
+
+Renaming files
+git mv <OldFileName> <NewFileName>
